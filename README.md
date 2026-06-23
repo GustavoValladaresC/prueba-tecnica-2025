@@ -13,7 +13,7 @@ Desarrollar una API REST para gestionar las atenciones médicas realizadas a pac
 
 La evaluación busca observar:
 
-* Dominio de .NET 8 (sin forzar stack específico)
+* Dominio de .NET 10
 * Buenas prácticas, arquitectura limpia y organización
 * Uso de **servicios inyectables** (IService, DI nativo de .NET) cuando sea necesario
 * Dominio de SQL Server (SPs, joins, relaciones, filtros)
@@ -24,13 +24,13 @@ La evaluación busca observar:
 
 ## 📦 Requisitos Técnicos
 ### Frontend 
-* Razor / Blazor  (.NET 8)
+* Razor / Blazor  (.NET 10)
 * Cubrir los módulos Pacientes y Doctores consumiendo la API protegida por API Key.
 * CRUD completo para ambos modulos.
 
 ### Backend
 
-* Lenguaje: C# (.NET 8)
+* Lenguaje: C# (.NET 10)
 * Arquitectura organizada (modular, capas, patrones si aplica)
 * Código limpio, mantenible, comentado cuando sea necesario
 * Exposición de endpoints RESTful
